@@ -2,7 +2,7 @@
 
 ## Tabelle
 
-* inventario
+### inventario
 
 | Nome          | Tipo          | Extra          |
 |---------------|---------------|----------------|
@@ -15,7 +15,7 @@
 | prezzo        | DECIMAL(10,0) |                |
 | proprietario  | INT           |                |
 
-* ordini
+### ordini
 
 | Nome         | Tipo          | Extra          |
 |--------------|---------------|----------------|
@@ -29,7 +29,7 @@
 | data_ordine  | DATE          |                |
 | proprietario | INT           |                |
 
-* utenti
+### utenti
 
 | Nome            | Tipo     | Extra          |
 |-----------------|----------|----------------|
