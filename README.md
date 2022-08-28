@@ -3,6 +3,7 @@
 ## Tabelle
 
 * inventario
+
 | Nome          | Tipo          | Extra          |
 |---------------|---------------|----------------|
 | id            | INT           | AUTO_INCREMENT |
@@ -15,6 +16,7 @@
 | proprietario  | INT           |                |
 
 * ordini
+
 | Nome         | Tipo          | Extra          |
 |--------------|---------------|----------------|
 | id           | INT           | AUTO_INCREMENT |
@@ -28,6 +30,7 @@
 | proprietario | INT           |                |
 
 * utenti
+
 | Nome            | Tipo     | Extra          |
 |-----------------|----------|----------------|
 | user_id         | int      | AUTO_INCREMENT |
