@@ -1,0 +1,45 @@
+*
+{
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+
+/* label focus color */
+.input-field input:focus+label {
+    color: #673AB7 !important;
+}
+
+/* label underline focus color */
+.input-field input:focus {
+    border-bottom: 1px solid #673AB7 !important;
+    box-shadow: 0 1px 0 0 #673AB7 !important;
+}
+
+.login-form {
+    border-radius: 0.3em;
+    width: 22rem !important;
+    padding: 10px 20px;
+    margin: 5rem auto 0 auto !important;
+}
+
+.light-rounded {
+    border-radius: 0.3em;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.no-padding {
+    padding: 0 !important;
+}

@@ -1,0 +1,10 @@
+<?php
+$db_username = '';
+$db_password = '';
+$db_host = '';
+$db_name = '';
+
+$hcaptcha_secret = '';
+$hcaptcha_sitekey_login = '';
+$hcaptcha_sitekey_register = '';
+?>

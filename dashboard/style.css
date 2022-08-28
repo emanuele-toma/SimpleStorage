@@ -1,0 +1,87 @@
+html {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-smooth: antialiased;
+}
+
+@media only screen and (min-width : 992px) {
+    .invisible-top {
+        top: 65px !important;
+    }
+
+    main {
+        padding-left: 300px;
+    }
+}
+
+.pagination li.active {
+    background-color: #9575cd !important;
+}
+
+.input-field input:focus+label {
+    color: #673AB7 !important;
+}
+
+.input-field input:focus {
+    border-bottom: 1px solid #673AB7 !important;
+    box-shadow: 0 1px 0 0 #673AB7 !important;
+}
+
+.month-prev:focus,
+.month-next:focus {
+    background-color: inherit !important;
+}
+
+.datepicker-date-display {
+    background-color: #673AB7 !important;
+}
+
+.dropdown-content li>a,
+.dropdown-content li>span {
+    color: #673AB7 !important;
+}
+
+.datepicker-table td.is-selected {
+    background-color: #673AB7 !important;
+}
+
+.datepicker-cancel,
+.datepicker-clear,
+.datepicker-today,
+.datepicker-done {
+    color: #673AB7 !important;
+}
+
+.datepicker-table td.is-today.is-selected {
+    color: #ffffff !important;
+}
+
+.datepicker-table td.is-today {
+    color: #673AB7 !important;
+}
+
+.background {
+    transform: scale(1.1);
+}
+
+.background>img {
+    filter: blur(2px);
+    height: 100%;
+    width: 100%;
+}
+
+#sidenav-picture {
+    height: 65px;
+    width: auto;
+}
+
+.spinny
+{
+    transition: all 0.5s ease-in-out;
+}
+
+::placeholder
+{
+    color: #9e9e9e !important;
+    opacity: 1 !important;
+}
