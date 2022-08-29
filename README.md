@@ -43,4 +43,9 @@
 | role            | tinytext |                |
 
 # Configurazione
+
 Per modificare la configurazione cambiare le variabili nel file settings.php.public e rimuovere .public
+
+# Live Demo
+
+https://tomaemanuele.altervista.org/SimpleStorage
