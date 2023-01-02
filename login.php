@@ -39,7 +39,7 @@ if (!validateCaptcha($token, $hcaptcha_sitekey_login, $hcaptcha_secret)) {
 }
 
 
-if (!validateUsername($_POST['username'])) {
+if (!validateUsername($_POST['username']) && !validateEmail($_POST['username'])) {
     
     http_response_code(400);
 

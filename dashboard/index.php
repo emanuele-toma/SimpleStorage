@@ -45,7 +45,7 @@ if ($_SESSION['loggedin'] != true) {
     </header>
 
 
-    <ul style="margin-top: -1px; overflow: hidden;" id="slide-out" class="sidenav sidenav-fixed invisible-top">
+    <ul style="margin-top: -1px; overflow: auto;" id="slide-out" class="sidenav sidenav-fixed invisible-top">
         <li>
             <div class="user-view">
                 <div class="background">
